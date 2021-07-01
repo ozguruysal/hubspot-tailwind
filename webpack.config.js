@@ -45,6 +45,7 @@ module.exports = ({ portal, autoupload }) => ({
         { from: "src/images", to: "images" },
         { from: "src/templates", to: "templates" },
         { from: "src/modules", to: "modules" },
+        { from: "src/theme.json", to: "theme.json" },
       ],
     }),
   ],
